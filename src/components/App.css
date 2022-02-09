@@ -1,0 +1,176 @@
+body {
+  background-color: #ddd;
+  font-family: "Sen", sans-serif;
+  font-size: 15px;
+}
+
+.App {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.App header {
+  background-color: #eee;
+  height: 11vh;
+  min-height: 50px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  max-width: 650px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+  padding: 0 10px 0 25px;
+  box-sizing: border-box;
+}
+
+.App section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main {
+  background-color: #faf9f9;
+  height: 80vh;
+  margin: 10vh 0 10vh 0;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+main::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+main::-webkit-scrollbar-track {
+  background: #faf9f9;
+}
+
+main::-webkit-scrollbar-thumb {
+  background: #efefef;
+}
+
+form {
+  background-color: #faf9f9;
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 650px;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+input {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  color: #000;
+  outline: none;
+  border: 1px solid #555;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 10px;
+  font-family: "Sen", sans-serif;
+  width: 100%;
+}
+
+.send {
+  border: 1px solid #555;
+  border-radius: 10px;
+  color: #000;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 15px;
+  width: 30%;
+  margin: 10px;
+  margin-left: 0;
+}
+
+.sign-out,
+.sign-in {
+  border: 1px solid #555;
+  padding: 10px 15px 10px 15px;
+  color: #000;
+  border-radius: 10px;
+}
+
+button {
+  font-family: "Sen", sans-serif;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.sign-in {
+  color: #282c34;
+  background: white;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+ul,
+li {
+  text-align: left;
+  list-style: none;
+}
+
+p {
+  max-width: 500px;
+  margin-bottom: 12px;
+  line-height: 24px;
+  padding: 10px 20px;
+  position: relative;
+  color: white;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+}
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent p {
+  color: #000;
+  align-self: flex-end;
+  border-bottom: 1px solid #ddd;
+  text-align: right;
+}
+.received p {
+  color: black;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.pfp {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  margin: 2px 15px;
+  filter: grayscale(100%);
+}
+
+h1 {
+  font-family: "Nanum Myeongjo", serif;
+  color: #000;
+  font-weight: normal;
+  font-size: 50px;
+}
+
+.appDesc {
+  display: block;
+  padding: 25px;
+}

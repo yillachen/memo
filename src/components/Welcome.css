@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.parallaxBox {
+  height: 500px;
+}
+
+h2 {
+  font-family: "Nanum Myeongjo", serif;
+  color: #fff;
+  font-weight: normal;
+  font-size: 36px;
+}
+
+.inline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcomeDiv {
+  background-color: #f4f9f9;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.welcomeMsg {
+  font-family: "Nanum Myeongjo", serif;
+  color: #555;
+  font-weight: normal;
+  font-size: 24px;
+  padding: 50px;
+}
+
+footer {
+  background-color: #fff;
+  padding: 25px;
+  color: #555;
+}
+
+a:visited {
+  color: #555;
+}
