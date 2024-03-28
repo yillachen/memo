@@ -27,6 +27,3 @@ firebase.initializeApp({
 
 export default firebase;
 ```
-
-### Links
-<a href="https://youtu.be/C94chBHOZjE">Video Walk-through</a><br />
